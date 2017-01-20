@@ -4,7 +4,7 @@
 
 ## Description
 
-_Ping Pong is a number game created to display my understanding of arrays and looping in Javascript. To play, enter a number into the input field and click submit. A list of numbers starting with 1 and ending at the user's chosen number will appear below. There are three exceptions: any number in the list divisible by 3 will be replaced with the word 'ping', and number in the list divisible by 5 will return the word 'pong' and any number divisible by 15 will return the word 'pingpong'. It ignores all numbers with decimal points, all numbers less than 1 and all non numerical characters._
+_Ping Pong is a number game created to display my understanding of arrays and looping in Javascript. To play, enter a number into the input field and click submit. A list of numbers starting with 1 and ending with the user's chosen number will appear below. There are three exceptions: any number in the list divisible by 3 will be replaced with the word 'ping', any number in the list divisible by 5 will return the word 'pong' and any number divisible by 15 will return the word 'pingpong'. It ignores all numbers with decimal points, all numbers less than 1 and all non numerical characters._
 
 ## Specs
 
@@ -37,7 +37,8 @@ _To view and use this website:_
 * Download the zip file via the green button
 * Unzip the file and open the 'ping-pong-master' folder
 * Within the folder, there will be a file called index.html. Open this file with your web browser
-* The page should load and the game should be ready to play!
+* The page will load and the game will be ready to play!
+
 
 
 _If you have any questions or comments about this program, you can contact me at [brendangrubb@gmail.com](mailto:brendangrubb@gmail.com)._
