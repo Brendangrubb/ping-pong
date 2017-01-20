@@ -1,0 +1,46 @@
+body {
+  background-color: #E6E6E6;
+}
+
+header {
+  background-color: #F1DFB9;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.title {
+  font-size: 60px;
+
+}
+
+.left-box {
+  float: left;
+  background-color: #97BA92;
+  margin-top: 20px;
+  margin-right: 70px;
+  padding-top: 15px;
+  padding-right: 70px;
+  padding-left: 20px;
+  padding-bottom: 100%;
+
+}
+.left-box h3 {
+  color: #F1DFB9;
+
+}
+
+.left-box h4 {
+  color: #ffffff;
+
+}
+
+.well {
+  background-color: #E6E6E6;
+  margin-top: 20px;
+}
+
+ol {
+  list-style-position: inside;
+}
