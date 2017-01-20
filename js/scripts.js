@@ -1,9 +1,10 @@
+
+// User Interface Logic
 $(document).ready(function() {
-
   $("#input-form").submit(function(event) {
-      event.preventDefault();
-
-      alert("button works");
+    event.preventDefault();
+    var userInput = $("#enter-number").val();
+    $("ul#number-output").prepend("<li>" + userInput + "</li>");
 
   })
 
