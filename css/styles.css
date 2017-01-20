@@ -5,8 +5,8 @@ body {
 header {
   background-color: #F1DFB9;
   margin-top: 0px;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -18,11 +18,11 @@ header {
 .left-box {
   float: left;
   background-color: #97BA92;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 70px;
   padding-top: 15px;
-  padding-right: 70px;
-  padding-left: 20px;
+  padding-right: 50px;
+  padding-left: 15px;
   padding-bottom: 100%;
 
 }
@@ -36,11 +36,25 @@ header {
 
 }
 
-.well {
-  background-color: #E6E6E6;
-  margin-top: 20px;
+.rules-box {
+  margin-top: 65px;
 }
 
 ol {
   list-style-position: inside;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  max-width: 225px;
+}
+
+label {
+  float: left;
+}
+
+input {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
 }
