@@ -1,5 +1,13 @@
 //Business Logic
 
+//
+// var converter = function(numberInput) {
+
+//   alert(numberInput);
+// ]
+// }
+
+
 
 
 // User Interface Logic
@@ -11,13 +19,20 @@ $(document).ready(function() {
 
     var numberInput = parseInt($("#enter-number").val());
 
-    if (numberInput % 3 === 0 && numberInput % 5 !== 0) {
+    for (index = 1; index <= numberInput; index += 1) {
+      result = index;
+      alert(result);
+    }
+
+    if (result % 3 === 0 && result % 5 !== 0) {
       alert("ping");
-    } else if (numberInput % 5 === 0 && numberInput % 15 !== 0) {
+    } else if (result % 5 === 0 && result % 15 !== 0) {
       alert("pong");
-    } else if (numberInput % 15 === 0) {
+    } else if (result % 15 === 0) {
       alert("pingpong");
     }
+
+
 
     // $("ul#number-output").prepend("<li>" + numberInput + "</li>");
 
