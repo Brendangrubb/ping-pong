@@ -12,7 +12,6 @@ header {
 
 .title {
   font-size: 60px;
-
 }
 
 .left-box {
@@ -25,14 +24,13 @@ header {
   padding-left: 15px;
   padding-bottom: 100%;
 }
+
 .left-box h3 {
   color: #F1DFB9;
-
 }
 
 .left-box h4 {
   color: #ffffff;
-
 }
 
 .rules-box {
