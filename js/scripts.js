@@ -20,7 +20,6 @@ $(document).ready(function() {
       };
 
       $("ul#number-output").append("<li>" + result + "</li>");
-
     };
 
  });
