@@ -1,4 +1,3 @@
-//Business Logic
 
 //
 // var converter = function(numberInput) {
@@ -10,7 +9,6 @@
 
 
 
-// User Interface Logic
 
 $(document).ready(function() {
 
@@ -21,23 +19,26 @@ $(document).ready(function() {
 
     for (index = 1; index <= numberInput; index += 1) {
       result = index;
-      alert(result);
-    }
 
-    if (result % 3 === 0 && result % 5 !== 0) {
-      alert("ping");
-    } else if (result % 5 === 0 && result % 15 !== 0) {
-      alert("pong");
-    } else if (result % 15 === 0) {
-      alert("pingpong");
-    }
+      if (index % 3 === 0 && index % 5 !== 0) {
+        result = "ping";
+      } else if (index % 5 === 0 && index % 15 !== 0) {
+        result = "pong";
+      } else if (index % 15 === 0) {
+        result = "pingpong";
+      };
 
+      $("ul#number-output").append("<li>" + result + "</li>");
 
-
-    // $("ul#number-output").prepend("<li>" + numberInput + "</li>");
+    };
 
 
-  })
+
+
+
+
+
+ });
 
 
 })
