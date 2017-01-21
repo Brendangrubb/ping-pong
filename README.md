@@ -8,15 +8,15 @@ _Ping Pong is a number game created to display my understanding of arrays and lo
 
 ## Specs
 
-* Program will disregard non number charachters
+* Program will disregard non number characters
   * (input ex) i or I or @
-  * (output ex) _"You're not doing it right! Please enter a number."_
+  * (output ex) (nothing)
 * Program will disregard 0
   * (input ex) 0
-  * (output ex) _"Please enter a number 1 or above"_
+  * (output ex) (nothing)
 * Program will disregard negative numbers
   * (input ex) -50
-  * (output ex) _"Please enter a positive number"_
+  * (output ex) (nothing)
 * Program will count up to provided number
   * (input ex) 8
   * (output ex) [1, 2, 3, 4, 5, 6, 7, 8]
@@ -29,6 +29,9 @@ _Ping Pong is a number game created to display my understanding of arrays and lo
 * Program will replace all numbers divisible by 15 with the word 'pingpong'
   * (input ex) 45
   * (output ex) _"pingpong"_
+* Program will replace all numbers divisible by 150 with the word 'pingpongdingdong'
+  * (input ex) 600
+  * (output ex) _"pingpongdingdong"_
 
 ## Setup/Installation Instructions
 
