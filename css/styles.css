@@ -21,8 +21,8 @@ label {
 }
 
 ul {
-  text-align: center;
-  list-style-type: none;
+  position: absolute;
+  margin-left: 238px;
 }
 
 ol {
@@ -34,6 +34,11 @@ ol {
   max-width: 225px;
 }
 
+#hide-bullet {
+  display: none;
+
+}
+
 .left-box {
   float: left;
   width: 320px;
@@ -43,7 +48,7 @@ ol {
   padding-top: 15px;
   padding-right: 50px;
   padding-left: 15px;
-  padding-bottom: 100%;
+  padding-bottom: 500px;;
 }
 
 .left-box h3 {

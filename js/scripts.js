@@ -30,6 +30,7 @@ $(document).ready(function() {
   $("#input-form form").submit(function() {
     event.preventDefault();
     $("#user-output").empty();
+    $("#hide-bullet").show();
 
 
     var userEnter = $("#user-enter").val();
