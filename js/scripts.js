@@ -17,59 +17,24 @@ var processUserEnter = function(userEnter) {
       result = "pingpong";
     };
     userOutput.push(result);
-
   };
-
 };
 
 
 // User Interface Logic
 
 $(document).ready(function() {
-
   $("#input-form form").submit(function() {
     event.preventDefault();
     $("#user-output").empty();
     $("#hide-bullet").show();
-
 
     var userEnter = $("#user-enter").val();
     var output = processUserEnter(userEnter);
 
     $("#user-output").append(userOutput.join("</li><li>"));
   })
-
 });
-
-
-
-
-// var userEnter = $("#user-enter").val();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
