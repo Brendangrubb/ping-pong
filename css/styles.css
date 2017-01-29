@@ -20,6 +20,11 @@ label {
   float: left;
 }
 
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
 ol {
   list-style-position: inside;
   margin-bottom: 20px;
@@ -31,6 +36,7 @@ ol {
 
 .left-box {
   float: left;
+  width: 320px;
   background-color: #97BA92;
   margin-top: 30px;
   margin-right: 70px;
@@ -49,8 +55,8 @@ ol {
 }
 
 .return-box {
-  background-color: #E6E6E6;
-  width: 50px;
+
+
 }
 
 .rules-box {

@@ -5,9 +5,8 @@ var result;
 var userOutput = [];
 
 var processUserEnter = function(userEnter) {
-
+  userOutput = [];
   parseInt(userEnter);
-  // return userEnter;
   for (i = 1; i <= userEnter; i += 1) {
     result = i;
     if (i % 3 === 0 && i % 5 !== 0) {
@@ -21,14 +20,7 @@ var processUserEnter = function(userEnter) {
 
   };
 
-  console.log(userOutput);
-
-
 };
-
-
-
-//
 
 
 // User Interface Logic
@@ -37,13 +29,13 @@ $(document).ready(function() {
 
   $("#input-form form").submit(function() {
     event.preventDefault();
-    $("ul#user-output").empty();
+    $("#user-output").empty();
 
 
     var userEnter = $("#user-enter").val();
     var output = processUserEnter(userEnter);
 
-    $("ul#user-output").prepend("<li>" + userOutput + "</li>");
+    $("#user-output").append(userOutput.join("</li><li>"));
   })
 
 });
