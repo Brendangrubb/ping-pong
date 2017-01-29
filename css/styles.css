@@ -10,8 +10,23 @@ header {
   text-align: center;
 }
 
-.title {
-  font-size: 60px;
+input {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+label {
+  float: left;
+}
+
+ol {
+  list-style-position: inside;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  max-width: 225px;
 }
 
 .left-box {
@@ -33,25 +48,15 @@ header {
   color: #ffffff;
 }
 
+.return-box {
+  background-color: #E6E6E6;
+  width: 50px;
+}
+
 .rules-box {
   margin-top: 65px;
 }
 
-ol {
-  list-style-position: inside;
-  margin-bottom: 20px;
-}
-
-.form-control {
-  max-width: 225px;
-}
-
-label {
-  float: left;
-}
-
-input {
-  float: left;
-  margin-right: 5px;
-  margin-left: 5px;
+.title {
+  font-size: 60px;
 }
