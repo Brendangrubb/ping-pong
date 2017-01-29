@@ -20,14 +20,14 @@ label {
   float: left;
 }
 
-ul {
-  position: absolute;
-  margin-left: 238px;
-}
-
 ol {
   list-style-position: inside;
   margin-bottom: 20px;
+}
+
+ul {
+  position: absolute;
+  margin-left: 238px;
 }
 
 .form-control {
@@ -36,7 +36,6 @@ ol {
 
 #hide-bullet {
   display: none;
-
 }
 
 .left-box {
@@ -57,11 +56,6 @@ ol {
 
 .left-box h4 {
   color: #ffffff;
-}
-
-.return-box {
-
-
 }
 
 .rules-box {
